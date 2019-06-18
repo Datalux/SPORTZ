@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SPORTZ</string>
+    <string name="app_description">L\'app per gli sportivi</string>
+    <string name="tracking_enabled_notif">Tracciamento avviato. Tocca per interrompere</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="maps_key">AIzaSyAFN66UJJZNjbmNUwS9gZnFkz8UP5-pwuA</string>
+
+
+    <!-- Strings related to Settings -->
+    <string-array name="pref_mof">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+
+    <string-array name="track">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+
+    <!-- Example settings for Data & Sync -->
+
+
+
+    <string name="condividi">Condividi</string>
+
+    <!-- <string name="default_web_client_id">47233730938-6b63v9om4esdbngo42apb866mjsh87m0.apps.googleusercontent.com</string> -->
+</resources>

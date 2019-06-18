@@ -1,0 +1,76 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Parametri">
+
+
+    <ListPreference
+        android:defaultValue="M"
+        android:entries="@array/pref_mof"
+        android:entryValues="@array/pref_mof"
+        android:key="sex"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Sesso" />
+
+    <EditTextPreference
+            android:defaultValue="18"
+            android:inputType="numberDecimal"
+            android:key="pref_age"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Età" />
+
+    <EditTextPreference
+        android:defaultValue="170"
+        android:inputType="numberDecimal"
+        android:key="pref_height"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Altezza (in centimetri)" />
+
+    <EditTextPreference
+        android:defaultValue="70"
+        android:inputType="numberDecimal"
+        android:key="pref_weight"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Peso" />
+
+    <EditTextPreference
+        android:defaultValue="80"
+        android:inputType="numberDecimal"
+        android:key="pref_step_size"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Lunghezza passo (in centimetri)" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Geolocalizzazione">
+
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/track"
+            android:entryValues="@array/track"
+            android:key="track"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="Intervallo tracciamento (in secondi)" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notifiche">
+
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="track_notification"
+            android:title="Mostra notifica tracciamento" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

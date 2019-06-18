@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "335814612936",
+    "firebase_url": "https://sportz-c0fdb.firebaseio.com",
+    "project_id": "sportz-c0fdb",
+    "storage_bucket": "sportz-c0fdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335814612936:android:6aa587d3b5d4b49a",
+        "android_client_info": {
+          "package_name": "it.crisoftdev.sportz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335814612936-66ik75jvt5j6m0cteersod7tull7fto5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.crisoftdev.sportz",
+            "certificate_hash": "8123775fb0b573d44fdd1e48daeb497b6054f56e"
+          }
+        },
+        {
+          "client_id": "335814612936-73hsvmfbe7gsm2du4gkomcpihmf35jbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC4C7qhEZ0fU-8rRq4LOQxms14UWym92A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335814612936-73hsvmfbe7gsm2du4gkomcpihmf35jbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
