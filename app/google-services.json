@@ -15,11 +15,27 @@
       },
       "oauth_client": [
         {
-          "client_id": "335814612936-66ik75jvt5j6m0cteersod7tull7fto5.apps.googleusercontent.com",
+          "client_id": "335814612936-nj8s4k4p8foqfdibrra96499088v8rvj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "it.crisoftdev.sportz",
-            "certificate_hash": "8123775fb0b573d44fdd1e48daeb497b6054f56e"
+            "certificate_hash": "45575da873c7ea3b592c785aab61efb5081aec52"
+          }
+        },
+        {
+          "client_id": "335814612936-0s5r647p78s5g4ti2a6d3hi15o0vs8hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.crisoftdev.sportz",
+            "certificate_hash": "6d51379e25c551d866f1ad1cc5781143c3919127"
+          }
+        },
+        {
+          "client_id": "335814612936-fe7mc50c37tci8h64atauus6b2akdk5d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.crisoftdev.sportz",
+            "certificate_hash": "5ecc3653ce0e5a50a809919bded1cf76a9987c5d"
           }
         },
         {
