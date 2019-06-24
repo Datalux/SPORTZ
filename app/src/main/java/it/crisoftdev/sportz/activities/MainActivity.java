@@ -84,8 +84,6 @@ public class MainActivity extends AppCompatActivity{
         recyclerView.setAdapter(mAdapter);
 
 
-
-
         findViewById(R.id.startRecording).setOnClickListener(v -> {
 
             LocationManager lm = (LocationManager) getSystemService(LOCATION_SERVICE);
@@ -121,8 +119,6 @@ public class MainActivity extends AppCompatActivity{
         findViewById(R.id.home).setOnClickListener(v -> {
             recyclerView.smoothScrollToPosition(0);
         });
-
-
 
     }
 
