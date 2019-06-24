@@ -255,11 +255,9 @@ public class TrackerActivity extends AppCompatActivity implements OnMapReadyCall
             // Get extra data included in the Intent
             String message = intent.getStringExtra("Status");
             if(message != null && message.equals("stop")){
-                Log.d(TAG, "onReceive: stop received");
                 stopTracking.setText(getString(R.string.condividi));
                 shareState = true;
             } else {
-                Log.d(TAG, "onReceive: received loc");
                 Bundle b = intent.getBundleExtra("Location");
                 lastKnownLoc = b.getParcelable("Location");
                 if (lastKnownLoc != null) {

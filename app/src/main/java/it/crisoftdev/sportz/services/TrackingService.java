@@ -105,7 +105,6 @@ public class TrackingService extends Service {
                     .setSmallIcon(R.drawable.ic_run_icon);
             startForeground(1, builder.build());
         } else {
-
             Notification.Builder builder = new Notification.Builder(this)
                     .setContentTitle(getString(R.string.app_name))
                     .setContentText(getString(R.string.tracking_enabled_notif))
